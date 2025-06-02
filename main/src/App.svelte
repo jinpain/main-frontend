@@ -1,6 +1,6 @@
-<script lang="js">
+<script>
+  import Main from "./components/Main.svelte";
   import Navbar from "./components/Navbar.svelte";
-  import NewsFeed from "./components/NewsFeed.svelte";
 </script>
 
 <header>
@@ -8,11 +8,11 @@
 </header>
 
 <main>
-  <NewsFeed />
+  <Main />
 </main>
 
-<footer></footer>
+<footer>
+</footer>
 
 <style>
-
 </style>
